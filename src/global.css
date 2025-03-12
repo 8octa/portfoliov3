@@ -9,6 +9,12 @@
 
 @theme {
   --font-sans: "Lato", sans-serif;
+  --color-purple: #8338ec;
+  --color-pink: #ff006e;
+  --color-orange: #fb5607;
+  --color-yellow: #fca311;
+  --color-blue: #3a86ff;
+  --color-black: #010409;
 }
 
 html {
@@ -16,5 +22,5 @@ html {
 }
 
 body {
-  @apply bg-zinc-900 text-zinc-50;
+  @apply bg-black text-zinc-50;
 }
