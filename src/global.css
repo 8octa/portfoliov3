@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@plugin 'tailwind-scrollbar';
+
+@font-face {
+  font-family: "Lato";
+  src: url("/Lato/Lato-Regular.ttf");
+}
+
+@theme {
+  --font-sans: "Lato", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-zinc-900 text-zinc-50;
+}
