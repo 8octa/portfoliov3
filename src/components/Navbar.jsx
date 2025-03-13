@@ -15,7 +15,7 @@ const Navbar = ({ open }) => {
     <nav
       className={`flex flex-col justify-center items-center p-10
       text-2xl font-black absolute top-15 right-5 border border-slate-500
-      bg-zinc-100 text-black transition-all duration-300 select-none
+      bg-zinc-100 text-black transition-all duration-300 select-none z-50 
       ${open ? "translate-x-0 opacity-90" : "translate-x-full opacity-0"}`}
     >
       {navItems.map(({ label, link }) => (

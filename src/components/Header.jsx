@@ -1,4 +1,3 @@
-import Button from "./Button";
 import Navbar from "./Navbar";
 import { MdBusinessCenter, MdDensitySmall, MdClose } from "react-icons/md";
 import { useState } from "react";
@@ -11,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full h-20 flex items-center z-40 bg-black border-b border-zinc-900">
+    <header className="w-full h-20 flex items-center z-40 bg-black border-b border-zinc-900 animate-fade-down animate-once animate-duration-[1111ms] animate-delay-[1111ms]">
       <div className="w-full mx-auto px-5 flex justify-between items-center ">
         <div>
           <a href="#hero">
