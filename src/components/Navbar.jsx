@@ -1,16 +1,6 @@
-const Navbar = ({ open }) => {
-  const navItems = [
-    {
-      label: "Home",
-      link: "#home",
-      className: "nav-link active",
-    },
-    {
-      label: "About",
-      link: "#about",
-    },
-  ];
+import { navItems } from "../index";
 
+const Navbar = ({ open, setOpen }) => {
   return (
     <nav
       className={`flex flex-col justify-center items-center p-10
@@ -23,6 +13,7 @@ const Navbar = ({ open }) => {
           <a
             href={link}
             className="p-5 hover:underline transition-all duration-300"
+            onClick={() => setOpen(!open)}
           >
             {label}
           </a>

@@ -10,10 +10,10 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full h-20 flex items-center z-40 bg-black border-b border-zinc-900 animate-fade-down animate-once animate-duration-[1111ms] animate-delay-[1111ms]">
+    <header className="sticky top-0 w-full h-15 lg:h-20 flex items-center z-40 bg-black border-b border-zinc-900 animate-fade-down animate-once animate-duration-[1111ms] animate-delay-[1111ms]">
       <div className="w-full mx-auto px-5 flex justify-between items-center ">
         <div>
-          <a href="#hero">
+          <a onClick={() => setOpen(false)} href="#hero">
             <MdBusinessCenter className="text-3xl text-zinc-100 hover:text-zinc-400 transition-all duration-400 active:scale-60" />
           </a>
         </div>
@@ -30,7 +30,7 @@ const Header = () => {
             />
           )}
 
-          <Navbar open={open} />
+          <Navbar open={open} setOpen={setOpen} />
         </div>
       </div>
     </header>
