@@ -55,7 +55,7 @@ export const gridItems = [
     className: "",
     imgClassName: "",
     titleClassName: "",
-    img: "",
+    img: "/world.svg",
     spareImg: "",
   },
   {
