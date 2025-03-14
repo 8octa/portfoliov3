@@ -11,6 +11,15 @@ const Navbar = ({ open, setOpen }) => {
       {navItems.map(({ label, link }) => (
         <div key={label} className="flex flex-col justify-center items-center">
           <a
+            className="p-5 hover:underline transition-all duration-300"
+            onClick={() => {
+              window.scrollTo(0, 0);
+              setOpen(!open);
+            }}
+          >
+            Home
+          </a>
+          <a
             href={link}
             className="p-5 hover:underline transition-all duration-300"
             onClick={() => setOpen(!open)}

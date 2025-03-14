@@ -1,10 +1,5 @@
 export const navItems = [
   {
-    label: "Home",
-    link: "#hero",
-    className: "nav-link active",
-  },
-  {
     label: "About",
     link: "#grid",
   },
@@ -65,7 +60,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to hire me?",
+    title: "Do you want to contact me?",
     description: "",
     className: "",
     imgClassName: "",

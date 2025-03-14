@@ -5,10 +5,10 @@ const Grid = () => {
   return (
     <section
       id="grid"
-      className="w-full pt-80 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 justify-items-center "
+      className="w-full pt-80 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 justify-items-center"
     >
       {gridItems.map(({ id, title, description, className }) => (
-        <Card key={id} title={title} description={description} />
+        <Card key={id} title={title} description={description} id={id} />
       ))}
     </section>
   );
