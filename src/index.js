@@ -9,7 +9,7 @@ export const gridItems = [
   {
     id: 1,
     title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
+    description: "Currenlty working as a Front End Developer @OSF Digital",
     className: "",
     imgClassName: "",
     titleClassName: "",
@@ -19,7 +19,8 @@ export const gridItems = [
   {
     id: 2,
     title: "I'm very flexible with working remote or in a hybrid enviorment",
-    description: "",
+    description:
+      "I have experience as a Front End Developer and as a Web Master",
     className: "",
     imgClassName: "",
     titleClassName: "",
@@ -40,7 +41,8 @@ export const gridItems = [
   {
     id: 4,
     title: "Tech enthusiast with a passion for development.",
-    description: "",
+    description:
+      "For the last 3 and a half years. I worked on brands such as Baccarat, L'Oreal, NYX, and Skin Ceurticals.",
     className: "",
     imgClassName: "",
     titleClassName: "",

@@ -6,7 +6,7 @@ import { FaFile } from "react-icons/fa";
 
 const Card = ({ title, description, id, img }) => {
   return (
-    <div className="max-w-sm w-full h-[10rem] rounded overflow-hidden shadow-lg bg-black border-1 border-zinc-400 p-5 m-5 relative">
+    <div className="flex items-center max-w-sm w-full h-[15rem] rounded overflow-hidden shadow-lg bg-black border-1 border-zinc-400 p-5 m-5 relative">
       <div className="px-6 py-4 relative z-10">
         <div className="font-bold text-xl mb-2">{title}</div>
         <p className="text-zinc-300 text-base">{description}</p>
