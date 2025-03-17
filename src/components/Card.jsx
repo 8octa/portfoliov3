@@ -2,6 +2,7 @@ import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaLinkedin } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript, SiNextdotjs } from "react-icons/si";
 import { IoMailSharp } from "react-icons/io5";
+import { FaFile } from "react-icons/fa";
 
 const Card = ({ title, description, id, img }) => {
   return (
@@ -36,6 +37,14 @@ const Card = ({ title, description, id, img }) => {
             >
               <FaLinkedin />
               LinkedIn
+            </a>
+            <a
+              className="flex gap-1 items-center hover:text-blue-500 transition-all duration-200"
+              href="/public/Octavian_Tataru_Resume.pdf"
+              target="_blank"
+            >
+              <FaFile />
+              My Resume
             </a>
           </div>
         )}
