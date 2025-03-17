@@ -42,6 +42,7 @@ const Card = ({ title, description, id, img }) => {
               className="flex gap-1 items-center hover:text-blue-500 transition-all duration-200"
               href="/public/Octavian_Tataru_Resume.pdf"
               target="_blank"
+              download
             >
               <FaFile />
               My Resume
