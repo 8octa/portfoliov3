@@ -2,11 +2,14 @@ import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaLinkedin } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript, SiNextdotjs } from "react-icons/si";
 import { IoMailSharp } from "react-icons/io5";
-import { FaFile } from "react-icons/fa";
+import { motion } from "motion/react";
 
 const Card = ({ title, description, id, img }) => {
   return (
-    <div className="flex items-center max-w-sm w-full h-[15rem] rounded overflow-hidden shadow-lg bg-black border-1 border-zinc-400 p-5 m-5 relative">
+    <motion.div
+      whileHover={{ scale: 1.1 }}
+      className="flex items-center max-w-sm w-full h-[15rem] rounded overflow-hidden shadow-lg bg-black border-1 border-zinc-400 p-5 m-5 relative"
+    >
       <div className="px-6 py-4 relative z-10">
         <div className="font-bold text-xl mb-2">{title}</div>
         <p className="text-zinc-300 text-base">{description}</p>
@@ -48,7 +51,7 @@ const Card = ({ title, description, id, img }) => {
           alt="Card Image"
         />
       )}
-    </div>
+    </motion.div>
   );
 };
 
