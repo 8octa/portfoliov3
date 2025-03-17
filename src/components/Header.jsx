@@ -13,7 +13,10 @@ const Header = () => {
   return (
     <header className="sticky top-0 w-full h-15 lg:h-20 flex items-center z-40 bg-black border-b border-zinc-900 animate-fade-down animate-once animate-duration-[1111ms] animate-delay-[1111ms]">
       <div className="w-full mx-auto px-5 flex justify-between items-center ">
-        <motion.div animate={{ rotate: 360, transition: { duration: 5 } }}>
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{ rotate: 360, transition: { duration: 5 }, scale: 1 }}
+        >
           <a onClick={() => setOpen(false)} href="#hero">
             <MdBusinessCenter className="text-3xl text-zinc-100 hover:text-zinc-400 transition-all duration-400 active:scale-60" />
           </a>
